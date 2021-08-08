@@ -1,0 +1,21 @@
+Base de Dados
+
+CREATE DATABASE empresa;
+
+Estrutura da tabela aluno
+
+CREATE TABLE aluno(ra_aluno int(8) NOT NULL,
+                  nome_aluno varchar(50) NOT NULL,
+                  telefone_aluno int(13) NOT NULL,
+                  email_aluno varchar(65) NOT NULL);
+
+INSERT INTO aluno VALUES (1, "João Smith", 912345678, "joao@email.com");
+
+
+CREATE TABLE usuario (nome_user varchar(50) NOT NULL,
+                     email_user varchar(65) NOT NULL,
+                     telefone_user int(13) NOT NULL,
+                     login_user varchar(35) NOT NULL UNIQUE,
+                     senha_user varchar(40) NOT NULL);
+
+INSERT INTO usuario VALUES ("Usuário Root", "root@email.com", 98765432, "admin", "root");
