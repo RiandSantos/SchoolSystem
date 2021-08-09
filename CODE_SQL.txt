@@ -4,7 +4,7 @@ CREATE DATABASE empresa;
 
 Estrutura da tabela aluno
 
-CREATE TABLE aluno(ra_aluno int(8) NOT NULL,
+CREATE TABLE aluno(ra_aluno int(8) NOT NULL PRIMARY KEY,
                   nome_aluno varchar(50) NOT NULL,
                   telefone_aluno int(13) NOT NULL,
                   email_aluno varchar(65) NOT NULL);
