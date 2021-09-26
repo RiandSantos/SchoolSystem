@@ -43,7 +43,7 @@ public class TelaLogin extends javax.swing.JFrame {
         pnlLogin.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Conta", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlLogin.setLayout(null);
 
-        jLabel2.setText("Usuraio");
+        jLabel2.setText("Usuário");
         pnlLogin.add(jLabel2);
         jLabel2.setBounds(30, 40, 70, 20);
 
