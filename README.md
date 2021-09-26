@@ -24,3 +24,23 @@ Exemplo:
 3. Vá até as _classes DAO_ e coloque sua senha em `private final String SENHA = "";`
 
 **`Erro com o connector.jar`**: Pode haver um erro com a classe que conecta no banco, você pode simplesmente direcionar a classe novamente para `Libraries`, o conector _.jar_ está dentro do projeto em [`SchoolSystem/ConnectorMySQL/`](https://github.com/RiandSantos/SchoolSystem/tree/main/connectorMySQL);
+
+## Screenshots 📷
+<div>
+  
+<p><strong> • Tela de Login</strong></p>
+<img src="https://user-images.githubusercontent.com/77757476/134811507-71be3634-6e47-4cc1-ab03-102ef633ef00.png" width="300px">
+
+<p><strong> • Tela de Cadastro de Usuário</strong></p>
+<img src="https://user-images.githubusercontent.com/77757476/134811298-971d876d-0823-4280-8c4c-19360eae79ae.png" width="300px">
+ 
+<p><strong> • Tela do Menu Principal</strong></p>
+<img src="https://user-images.githubusercontent.com/77757476/134811551-96707c56-9d18-4d3e-8c0c-6ef74630947b.png" width="300px">
+ 
+<p><strong> • Tela de Consulta de Aluno</strong></p>
+<img src="https://user-images.githubusercontent.com/77757476/134811642-74e327e4-8add-45fe-9d9c-fda5e0397768.png" width="300px">
+ 
+<p><strong> • Tela de Alteração de Dados do aluno</strong></p>
+<img src="https://user-images.githubusercontent.com/77757476/134811704-575f9a5b-f44f-45d1-8089-d98638bbe1e0.png" width="300px">
+
+</div>
